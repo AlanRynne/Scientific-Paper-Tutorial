@@ -9,18 +9,20 @@ date: 'July 2018'
 
 So, now that you have your machine printing a formated PDF out of a simple text file, you might be wondering:
 
-1. ***WHAT*** can I do with this Markdown syntax?
+1. ***WHAT*** can I do with this 'Markdown syntax' you talk about so much?
 2. ***HOW*** can I combine it with Pandoc to write something more complex than an fancy e-mail?
+
+Let's get to it:
 
 Markdown is based on very simple rules that allow you to concentrate only on writting and structure, without caring about the final appearance of the document.
 
 95% of the time, the PDF output will be exactly what you would expect, with no need for modifications. The other 5% of the time, there is a couple of solutions:
 
-* you might need to go *under the hood* (using Latex templates),
+1. you might need to go *under the hood* (using Latex templates) or,
 
-* or add an extra step to the workflow: outputing the file to `.docx` format using a preformatted template, and put the final touches in Word or,
+2. add an extra step to the workflow: outputing the file to `.docx` format using a preformatted template, and put the final touches in Word or,
 
-* if InDesign is your thing, you can also export as `.icml`(InCopy format).
+3. if InDesign is your thing, you can also export your document as a `.icml`(InCopy format).
 
 ## Simple formating
 
@@ -39,8 +41,8 @@ You can do headings with `#`:
 
 will be rendered like:
 
-> # Heading 1
-> ## Heading 2
+> *Heading 1 and 2 are missing because they were messing up the structure, but you get the idea:*  
+> 
 > ### Heading 3
 > #### Heading 4
 > ##### Heading 5
@@ -53,8 +55,8 @@ will be rendered like:
 ```markdown
 * Item 1
 + Item 2
-    * Nested item 1
-        - Nested item 2
+  * Nested item 1
+    * Nested item 2
 - Item 3
 ```
 
@@ -66,7 +68,7 @@ will be rendered like:
     - Nested item 2
 - Item 3
 
-> Notice that you can use `*`, `+` and `-`, for bullet lists. Although Pandoc seems to prefer `*`, so stick to that one.
+> Notice that you can use `*`, `+` and `-`, for bullet lists. Although **Pandoc seems to prefer `*`**, so stick to that one.
 
 #### Ordered lists
 
@@ -296,5 +298,6 @@ Difference between width-settings, nocaption option, etc... [@Fig:multiFigure] i
 Difference between width-settings, nocaption option, etc... [@Fig:multiFigure] is a full figure reference, but you can also reference just one of the images, like [@Fig:figa;[@Fig:figb;[@Fig:figc].
 </div>
 
-And it will look like this on your paper:
+And it will look like this on your paper (please forgive the mismatched heights on the pictures...it's terrible...I know...)
+
 ![multi-figure image](images/multi-figure-image.png)
