@@ -1,8 +1,6 @@
 ---
-publisher:  My Press
-rights: © 2007 John Smith, CC BY-NC
-title: 'Paper Authoring Course - Installation Guide'
-subtitle: 'The subtitle of the book'
+title: 'Paper Authoring Course'
+subtitle: 'Installation Guide'
 author: 'Alan Rynne'
 date: 'July 2018'
 
@@ -13,6 +11,7 @@ loc: true
 lot: true
 toc-depth: 3
 ---
+
 # Installation Guide
 
 ## Package managers
@@ -42,28 +41,6 @@ If you are running a Mac, installing 'homebrew' is quite straight-forward. Just 
 
 Once you have ***Chocolatey*** or ***Hombrew*** *up and running* you can easily install other packages by using the command `choco install PACKAGE_NAME` for Windows or `brew install PACKAGE_NAME` for Mac. *(changing `PACKAGE_NAME` for the name of the actual name of the package you wish to install.)*
 
-## Text Editor
-
-You could use any text editor to write your research paper, but in our case we are going to use Visual Studio Code.
-
-VSC is a boiled down version of Visual Studio that is perfect for writing simple Python and C# scripts, but also amazingly good at Markdown syntax.
-
-> Download Visual Studio Code at: [https://code.visualstudio.com/](https://code.visualstudio.com/)
-
-Other **VERY** good text editors are *SublimeText* and *Atom*, they all have a very similar design and behaviour; and you will find most of the functionality can be extended to your needs via packages/extensions, no matter the text editor you choose.
-
-We will also be making heavy use of VSC's extensions. You can install them directly from visual studio by pressing `CMD+SHIFT+X` on Mac or `CTRL+SHIFT+X` on Windows.
-
-Search and install the following extensions:
-
-* **Markdown All In One** - by Yu Zhang
-* **Markdown Footnotes** - by Matt Bierner
-* **Markdown Preview Enhanced** - by Yiyi Wang
-* **markdownlint** - by David Anson
-* **Python** - by Microsoft (this one might come pre-installed)
-* **RainbowCSV** - by mechatroner (CSV colouring)
-* **vscode-pandoc** - by DougFinke (Research Paper PDF rendering through VSC)
-* **vscode-pdf** - by tomoki1207 (Visualize PDF without leaving VSC)
 
 ## Python & pip
 
