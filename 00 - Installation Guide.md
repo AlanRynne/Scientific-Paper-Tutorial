@@ -3,13 +3,6 @@ title: 'Paper Authoring Course'
 subtitle: 'Installation Guide'
 author: 'Alan Rynne'
 date: 'July 2018'
-
-documentclass: paper
-classoption: 
-toc: true
-loc: true
-lot: true
-toc-depth: 3
 ---
 
 # Installation Guide
