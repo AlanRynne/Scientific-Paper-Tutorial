@@ -34,7 +34,6 @@ If you are running a Mac, installing 'homebrew' is quite straight-forward. Just 
 
 Once you have ***Chocolatey*** or ***Hombrew*** *up and running* you can easily install other packages by using the command `choco install PACKAGE_NAME` for Windows or `brew install PACKAGE_NAME` for Mac. *(changing `PACKAGE_NAME` for the name of the actual name of the package you wish to install.)*
 
-
 ## Python & pip
 
 Now that we have `choco` or `brew` working, we need use install `python` and `pip` by copying and pasting the following commands on the terminal.
@@ -79,8 +78,8 @@ Copy and paste the following commands on your linux terminal:
 * `brew install pandoc-crossref`
 * `brew install pandoc-citeproc`
 * To install miktex on a mac you need to run
-    * `brew tap miktex/miktex` and then
-    * `brew install miktex`
+  * `brew tap miktex/miktex` and then
+  * `brew install miktex`
 
 > ### Miktex
 > Just as a comment, MikTex is not a Pandoc extension. It is a program that installs the $\LaTeX$ language libraries that Pandoc uses to convert files. Sometimes, your default installation will come without some of the packages needed for a template and Pandoc will complain.  
@@ -106,6 +105,6 @@ Copy and paste the following commands on your linux terminal:
 
 ## Next steps
 
-Now that you got everything installed, it's time to open ***Visual Studio Code*** and start writing! 
+Now that you got everything installed, it's time to open ***Visual Studio Code*** and start writing!
 
 But first, head to the next file to finish setting up everyting and print a test PDF to make sure.

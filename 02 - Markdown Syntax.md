@@ -16,10 +16,10 @@ Markdown is based on very simple rules that allow you to concentrate only on wri
 
 95% of the time, the PDF output will be exactly what you would expect, with no need for modifications. The other 5% of the time, there is a couple of solutions:
 
-* you might need to go *under the hood* (using Latex templates), 
-* 
+* you might need to go *under the hood* (using Latex templates),
+
 * or add an extra step to the workflow: outputing the file to `.docx` format using a preformatted template, and put the final touches in Word or,
-* 
+
 * if InDesign is your thing, you can also export as `.icml`(InCopy format).
 
 ## Simple formating
@@ -36,6 +36,7 @@ You can do headings with `#`:
 ##### Heading 5
 ###### Heading 6
 ```
+
 will be rendered like:
 
 > # Heading 1
@@ -61,8 +62,8 @@ will be rendered like:
 
 * Item 1
 + Item 2
-    * Nested item 1
-        - Nested item 2
+  * Nested item 1
+    - Nested item 2
 - Item 3
 
 > Notice that you can use `*`, `+` and `-`, for bullet lists. Although Pandoc seems to prefer `*`, so stick to that one.
@@ -70,6 +71,7 @@ will be rendered like:
 #### Ordered lists
 
 Ordered/numbered lists use `1.`:
+
 ```markdown
 1. Item 1
 2. Item 2
@@ -89,12 +91,14 @@ will be rendered like:
 ### Tables
 
 This is a Markdown  table:
-```
+
+```markdown
 | Head 1 | Head 2 | Head 3 |
 | ------ | ------ | ------ |
 | Item 1 | Item 2 | Item 3 |
 | Item 4 | Item 5 | Item 6 |
 ```
+
 It will look like this:
 
 | Head 1 | Head 2 | Head 3 |
@@ -103,13 +107,15 @@ It will look like this:
 | Item 4 | Item 5 | Item 6 |
 
 Table captions are not supported by Markdown but Pandoc has a special notation for them. This is a table with a caption.
-```
+
+```markdown
 | Head 1 | Head 2 | Head 3 |
 | ------ | ------ | ------ |
 | Item 1 | Item 2 | Item 3 |
 | Item 4 | Item 5 | Item 6 |
 : The caption of the table goes here
 ```
+
 and will be rendered in your document like:
 
 | Head 1 | Head 2 | Head 3 |
@@ -127,6 +133,7 @@ You can reference an image from anywhere in your system (or the web) using
 ```
 
 Let's try it out grabing the Google logo from the web:
+
 ```makrdown
 ![Google Logo](https://www.google.es/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png)
 ```
@@ -138,9 +145,11 @@ The above text will render this:
 ### Links
 
 Links have exactly the same notation as images but without the exclamation mark at the beginning so writting
-```
+
+```markdown
 [LINK_TEXT](WWW.SOME-WEBPAGE.COM)
 ```
+
 will result in
 
 [LINK_TEXT](WWW.SOME-WEBPAGE.COM)
@@ -149,9 +158,10 @@ will result in
 
 You can also nest an image in the `LINK_TEXT` and the whole image will become a link. Let's try it out with the Google logo again:
 
- ```
+ ```markdown
  [![Google Logo](https://www.google.es/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png)](http://www.google.com)
  ```
+
 Now clicking the image will take you to Google's website:
 
  [![Google Logo](https://www.google.es/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png)](http://www.google.com)
@@ -162,7 +172,7 @@ Now clicking the image will take you to Google's website:
 
 #### Footnotes
 
-You can make a footnote reference using `[^REFERENCE]` ***anywhere*** in the document, with the exception of nested footnotes (footnotes inside a footnote). 
+You can make a footnote reference using `[^REFERENCE]` ***anywhere*** in the document, with the exception of nested footnotes (footnotes inside a footnote).
 
 Then you can add the footnote text using the same notation in a **new line**, followed by `:` and the text footnote text. Like this:
 
@@ -190,9 +200,10 @@ You have a bunch of papers you need to reference in your research:
 1. Go to [Google Scholar](http://scholar.google.com)
 2. Search for your paper name/author...
 3. Click on the "Cite" button ![cite button](images/GoogleScholarCiteButton.png)
-4. A pop-up will appear with some pre-formated text references, **ignore them** 
+4. A pop-up will appear with some pre-formated text references, **ignore them**
 5. Click the BibTeX button in the lower left part and a new window should appear with the reference info in BibTeX format.![GoogleBibtexButton](images/GoogleScholarBibtexButton.png)
 6. Copy and paste it to your `.bib` file. If you don't have one, just create a new text file with the `.bib` extension. It should look like this:
+
 ```yaml
 @inproceedings{pottmann2008geometry,
   title={Geometry of architectural freeform structures.},
@@ -205,7 +216,7 @@ You have a bunch of papers you need to reference in your research:
 
 The last step is that you need to insert this line anywhere in your ***YAML Frontmatter*** to tell Pandoc where to find you `.bib` file:
 
-```
+```YAML
 bibliography: Your_Bib_File.bib
 ```
 
@@ -224,9 +235,9 @@ bibliography: Your_Bib_File.bib
 
 #### Figure/Table/Equation references
 
-References are placed using the format `[@type:label]` anywhere in the text, being `label` the unique name of the desired reference on the format, and `type` the type of reference. 
+References are placed using the format `[@type:label]` anywhere in the text, being `label` the unique name of the desired reference on the format, and `type` the type of reference.
 
-To give a reference code to an image, you use the same notation but with curly brackets `{}`. 
+To give a reference code to an image, you use the same notation but with curly brackets `{}`.
 
 You can reference the different types:
 
@@ -251,16 +262,17 @@ will be rendered like this:
 
 > $$ f(x) = a^2_i + b^3_j - c $$
 
-Or:
-```
+And:
+
+```markdown
 This is a text with... $f(x) = 4$ ...a formula in it.
 ```
+
 will be rendered as:
 
 > This is a text with... $f(x) = 4$ ...a formula in it.
 
 I won't go into any more detail but you will find a cheatsheet for $\LaTeX$ in the Symbols.PDF  file found in the 'images' folder.
-
 
 ### Multi-image figures
 
