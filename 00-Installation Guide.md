@@ -1,7 +1,17 @@
 ---
-title: Paper Authoring Course - Installation Guide
-author: Alan Rynne
-date: July 2018
+publisher:  My Press
+rights: © 2007 John Smith, CC BY-NC
+title: 'Paper Authoring Course - Installation Guide'
+subtitle: 'The subtitle of the book'
+author: 'Alan Rynne'
+date: 'July 2018'
+
+documentclass: paper
+classoption: 
+toc: true
+loc: true
+lot: true
+toc-depth: 3
 ---
 # Installation Guide
 
@@ -17,7 +27,7 @@ If you are running windows, the best package manager right now is called ***Choc
 
 2. For installation, please follow the [Installation Guide](https://chocolatey.org/install)
 
-3. To search for any package available, you can visit [https://chocolatey.org/packages](https://chocolatey.org/packages).
+3. To search for any package available, you can visit [https://chocolatey.org/packages](https://chocolatey.org/packages)`
 
 ### Installing Homebrew for Mac
 
@@ -26,13 +36,13 @@ If you are running a Mac, installing 'homebrew' is quite straight-forward. Just 
 `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 `
 
-You can also find out more at [their website](https://brew.sh) or search for available packages at [https://formulae.brew.sh/formula/](https://formulae.brew.sh/formula/).
+> You can also find out more at [their website](https://brew.sh) or search for available packages at [https://formulae.brew.sh/formula/](https://formulae.brew.sh/formula/).
 
 ### Usage
 
 Once you have ***Chocolatey*** or ***Hombrew*** *up and running* you can easily install other packages by using the command `choco install PACKAGE_NAME` for Windows or `brew install PACKAGE_NAME` for Mac. *(changing `PACKAGE_NAME` for the name of the actual name of the package you wish to install.)*
 
-## Text Editor (VSC, ST, Atom...)
+## Text Editor
 
 You could use any text editor to write your research paper, but in our case we are going to use Visual Studio Code.
 
