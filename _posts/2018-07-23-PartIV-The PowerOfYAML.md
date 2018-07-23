@@ -14,7 +14,7 @@ So we've been learning about ***only some*** the posibilities that Markdown+Pand
 2. What if I want to change the margins of my page? Or my paper size?
 3. or if there is more than one author in the paper?
 4. Maybe I want to have a 2 column paper,
-5. or someone provided me a $\LaTeX$ template.
+5. or someone provided me a LaTeX template.
 6. Maybe I'm writting a PhD and I need a more 'book-like' structure...
 7. What if... maybe... what if... maybe...
 

@@ -63,7 +63,7 @@ Pandoc is a fantastic library for converting between a large list of markup docu
 
  1. `pandoc-citeproc` (to handle bibliography citations)
  2. `pandoc-crossref` (to render image, table and equation references)
- 3. `miktex` - Technically NOT an extension, this is the $\LaTeX$ language renderer that pandoc uses under the hood.
+ 3. `miktex` - Technically NOT an extension, this is the LaTeX language renderer that pandoc uses under the hood.
 
 > Pandoc and Miktex will also allow you to write fancy mathematical notation with little effort. Such as:
 > $$f(x)=a^m_i + b^n_j$$
@@ -89,7 +89,7 @@ Copy and paste the following commands on your linux terminal:
   * `brew install miktex`
 
 > ### Miktex
-> Just as a comment, MikTex is not a Pandoc extension. It is a program that installs the $\LaTeX$ language libraries that Pandoc uses to convert files. Sometimes, your default installation will come without some of the packages needed for a template and Pandoc will complain.  
+> Just as a comment, MikTex is not a Pandoc extension. It is a program that installs the LaTeX language libraries that Pandoc uses to convert files. Sometimes, your default installation will come without some of the packages needed for a template and Pandoc will complain.  
 > Most of the times, the solution is as easy as opening Miktex and searching for the missing package.
 
 ## Git

@@ -40,7 +40,7 @@ Search and install the following extensions:
 
 * **GitLens** - by Eric Amodio (Expands the Git capabilities of VSC)
 * **C#** - by Microsoft (if you write C#)
-* **$\LaTeX$ Language Support** - by Long Nhat Nguyen
+* **LaTeX Language Support** - by Long Nhat Nguyen
 
 Nice color themes:
 
@@ -65,7 +65,7 @@ To access VSC's Settings panel, press `CNTRL + ,` on Windows, or `CMD + ,` on Ma
     "markdown-preview-enhanced.pandocMarkdownFlavor": "markdown+implicit_figures+superscript+subscript+table_captions+definition_lists",
     "markdown-preview-enhanced.pandocArguments": "--filter=pandoc-crossref",
     "markdown-preview-enhanced.previewTheme": "gothic.css",
-    "markdown-preview-enhanced.$\LaTeX$Engine": "xelatex",
+    "markdown-preview-enhanced.LaTeXEngine": "xelatex",
     "markdown-preview-enhanced.enableScriptExecution": false,
     "markdown-preview-enhanced.mermaidTheme": "mermaid.forest.css",
 
