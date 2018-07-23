@@ -2,7 +2,7 @@
 title: 'Part III: Markdown Syntax'
 subtitle: 'A beguinners guide'
 author: 'Alan Rynne'
-date: 'July 2018'
+date: '23/07/2018'
 layout: page
 gh-repo: alanrynne/scientific-paper-tutorial
 gh-badge: [star, fork, follow]

@@ -2,7 +2,7 @@
 title: 'Part I: Installation Guide'
 subtitle: 'Everything you''l need'
 author: 'Alan Rynne'
-date: 'July 2018'
+date: '23/07/2018'
 layout: post
 gh-repo: alanrynne/scientific-paper-tutorial
 gh-badge: [star, fork, follow]
