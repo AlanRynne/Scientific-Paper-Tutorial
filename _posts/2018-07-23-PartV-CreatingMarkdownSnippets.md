@@ -16,7 +16,7 @@ So you finished the last two sections and you are probably thinking:
 
 The answer to both questions is **NO**. I introduce... **TEXT SNIPPETS**
 
-> Text snippets are just text fragments that can be placed in a document using just a keyword.  
+> Text snippets are just text fragments that can be placed in a document using a keyword.  
 > They can range from 1 character to multiple paragraphs and can have as many input placeholders as needed.
 
 ## VSC Default Markdown Snippets
