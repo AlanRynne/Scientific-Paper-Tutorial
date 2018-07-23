@@ -109,4 +109,3 @@ You will see a temp folder called `text2pdf.-#some-number` (see image below) whi
 After a couple of secconds, a PDF file named `00 - Test.pdf` should appear on the `Paper` folder. It should look something like this:
 
 ![First Paper Published](images/testPaperScr.png)
-
