@@ -1,11 +1,12 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
 ---
 
 My name is Alan Rynne and I'm the author of this course.
 
-### My history
+When I'm not making courses a Building engineer, computational designer & programmer.
 
-To be honest, I'm having some trouble remembering right now... why don't you check [My Webpage](http://www.rynne.es) instead?
+#### Want to know more?
+
+...why don't you check [My Webpage](http://www.rynne.es) instead?
