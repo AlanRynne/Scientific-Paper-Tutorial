@@ -101,12 +101,12 @@ date: 'The Future'
 
 Go ahead and change it for your own personal details, and then press `CNTRL+K` (`CMD+K` for mac) and then, imediately after, press `P`; a menu will pop in the top of your screen giving you an option between `pdf`,`html` or `epub`. Select `pdf` and press `ENTER`.
 
-![The Pop-up menu for selecting an output format](img/pandocRenderOptions.png)
+![The Pop-up menu for selecting an output format](/img/pandocRenderOptions.png)
 
 You will see a temp folder called `text2pdf.-#some-number` (see image below) while the PDF creation is in process, don't worry, it will be deleted once it finishes.
 
-![TempFolder from Pandoc Extension](img/pandocTempFolder.png)
+![TempFolder from Pandoc Extension](/img/pandocTempFolder.png)
 
 After a couple of secconds, a PDF file named `00 - Test.pdf` should appear on the `Paper` folder. It should look something like this:
 
-![First Paper Published](img/testPaperScr.png)
+![First Paper Published](/img/testPaperScr.png)
