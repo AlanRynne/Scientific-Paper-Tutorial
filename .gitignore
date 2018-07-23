@@ -1,3 +1,4 @@
 .vscode/settings.json
 Paper/*.pdf
 images/*.pdf
+.DS_Store
