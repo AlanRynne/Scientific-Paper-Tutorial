@@ -1,12 +1,18 @@
 ---
 title: 'Part I: Installation Guide'
-subtitle: 'Everything you''l need'
+subtitle: 'Everything you''ll need to succeed'
 author: 'Alan Rynne'
 date: '23/07/2018'
 layout: post
 gh-repo: alanrynne/scientific-paper-tutorial
 gh-badge: [star, fork, follow]
 ---
+
+Hi! Welcome to the ***Scientific Paper Tutorial***. In this short blog-series, you'll learn about the possibilities that Markdown syntax and the Pandoc library offer you to simplify your scientific writting workflow in order to concentrate purely on what's important: ***YOUR RESEARCH***.
+
+This first chapter covers the installation process of all the different libraries and programs that we'll use in the next chapters. Note that you can find all of the content's of this course ready to download from this project's [Github Repository](http://github.com/alanrynne/Scientific-Paper-Tutorial).
+
+Let's get started!!!
 
 ## Package managers
 
