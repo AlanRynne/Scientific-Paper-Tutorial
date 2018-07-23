@@ -202,9 +202,9 @@ You have a bunch of papers you need to reference in your research:
 
 1. Go to [Google Scholar](http://scholar.google.com)
 2. Search for your paper name/author...
-3. Click on the "Cite" button ![cite button](/img/GoogleScholarCiteButton.png)
+3. Click on the "Cite" button ![cite button](../img/GoogleScholarCiteButton.png)
 4. A pop-up will appear with some pre-formated text references, **ignore them**
-5. Click the BibTeX button in the lower left part and a new window should appear with the reference info in BibTeX format.![GoogleBibtexButton](/img/GoogleScholarBibtexButton.png)
+5. Click the BibTeX button in the lower left part and a new window should appear with the reference info in BibTeX format.![GoogleBibtexButton](../img/GoogleScholarBibtexButton.png)
 6. Copy and paste it to your `.bib` file. If you don't have one, just create a new text file with the `.bib` extension. It should look like this:
 
 ```yaml
@@ -301,4 +301,4 @@ Difference between width-settings, nocaption option, etc... [@Fig:multiFigure] i
 
 And it will look like this on your paper (please forgive the mismatched heights on the pictures...it's terrible...I know...)
 
-![multi-figure image](/img/multi-figure-image.png)
+![multi-figure image](../img/multi-figure-image.png)

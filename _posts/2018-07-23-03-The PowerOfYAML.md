@@ -104,7 +104,7 @@ The code block above is actually my YAML template for pandoc so feel free to use
 
  If everything went well, you should have a PDF file looking like this:
 
-![Paper Template result](/img/paperTemplateResult.png)
+![Paper Template result](../img/paperTemplateResult.png)
 
 ### Suggestions
 

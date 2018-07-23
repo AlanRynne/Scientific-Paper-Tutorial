@@ -105,7 +105,7 @@ Go ahead and change it for your own personal details, and then press `CNTRL+K` (
 
 You will see a temp folder called `text2pdf.-#some-number` (see image below) while the PDF creation is in process, don't worry, it will be deleted once it finishes.
 
-![TempFolder from Pandoc Extension](./img/pandocTempFolder.png)
+![TempFolder from Pandoc Extension](../img/pandocTempFolder.png)
 
 After a couple of secconds, a PDF file named `00 - Test.pdf` should appear on the `Paper` folder. It should look something like this:
 
