@@ -1,5 +1,5 @@
 ---
-title: 'Visual Studio Code'
+title: 'Part II: Visual Studio Code'
 subtitle: 'Download, install & setup'
 author: 'Alan Rynne'
 date: 'July 2018'

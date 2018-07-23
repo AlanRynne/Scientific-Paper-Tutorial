@@ -1,5 +1,5 @@
 ---
-title: 'Markdown Syntax'
+title: 'Part III: Markdown Syntax'
 subtitle: 'A beguinners guide'
 author: 'Alan Rynne'
 date: 'July 2018'

@@ -1,5 +1,5 @@
 ---
-title: 'Installation Guide'
+title: 'Part I: Installation Guide'
 subtitle: 'Everything you''l need'
 author: 'Alan Rynne'
 date: 'July 2018'

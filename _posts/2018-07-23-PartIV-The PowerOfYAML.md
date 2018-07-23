@@ -1,5 +1,5 @@
 ---
-title: 'The Power of YAML'
+title: 'Part IV: The Power of YAML'
 subtitle: 'Configuring file output'
 author: 'Alan Rynne'
 date: 'July 2018'
