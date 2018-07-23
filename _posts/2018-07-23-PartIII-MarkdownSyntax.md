@@ -119,14 +119,6 @@ Table captions are not supported by Markdown but Pandoc has a special notation f
 : The caption of the table goes here
 ```
 
-and will be rendered in your document like:
-
-| Head 1 | Head 2 | Head 3 |
-| ------ | ------ | ------ |
-| Item 1 | Item 2 | Item 3 |
-| Item 4 | Item 5 | Item 6 |
-: The caption of the table goes here
-
 ### Images
 
 You can reference an image from anywhere in your system (or the web) using
@@ -179,7 +171,7 @@ You can make a footnote reference using `[^REFERENCE]` ***anywhere*** in the doc
 
 Then you can add the footnote text using the same notation in a **new line**, followed by `:` and the text footnote text. Like this:
 
-```markdown {wrap-text=true}
+```markdown
 [^REFERENCE]: This text will appear as a numbered footnote in your pdf (and in your Markdown preview ***if*** you installed the Markdown Preview Enhanced extension)
 ```
 
