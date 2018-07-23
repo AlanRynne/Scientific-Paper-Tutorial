@@ -14,7 +14,10 @@ So you finished the last two sections and you are probably thinking:
 > Do I *REALLY* need to remember all this stuff? 
 > Do I have to type it down every time?
 
-The answer to both questions is **NO**.
+The answer to both questions is **NO**. I introduce... **TEXT SNIPPETS**
+
+> Text snippets are just text fragments that can be placed in a document using just a keyword.  
+> They can range from 1 character to multiple paragraphs and can have as many input placeholders as needed.
 
 ## VSC Default Markdown Snippets
 
@@ -22,8 +25,8 @@ Visual Studio Code already comes with Markdown syntax functionality from the sta
 
 You can tell VSC to *suggest* some text snippets to you while you write, which can do a couple of handy tricks:
 
-> Writting `image` and pressing the `TAB` key will introduce for you the `![Caption](Link)` text string that will introduce an image in Markdown.
-> It will also let you complete each field in order, and switch to the next one pressing `TAB` again.
+> Writting `image` and pressing the `TAB` key will introduce for you the `![Caption](Link)` text string that will introduce an image in Markdown.  
+> It will also let you complete each field in order, and switch to the next one pressing `TAB` again.  
 > Once you are finished editing the fields, press `TAB` again to continiue writting.
 
 The same behaviour applies to `link`, `code`, `italic` & `bold`,
@@ -54,7 +57,7 @@ The problem is that our combination of Markdown+Pandoc has A LOT more things goi
 4. Table references
 5. Equations
 
-And as we say in Part III, each of them has a different notation, depending if you are applying a code to an figure, or referencing that figure inside a paragraph.
+And, as you learned in Part III, each of them has a different notation: depending if you are applying a code to an figure or referencing that figure inside a paragraph.
 
 ## The solution
 
@@ -193,6 +196,7 @@ Once you completed this step, you should have available the following snippets:
 11. `task` is a special one: It is only to create a quick task list. *THIS IS NOT COMPATIBLE WITH PANDOC!!*
 12. `cmnt` will insert a comment. A comment will not appear in your final document, but its like any other reference: it needs a unique code to identify it.
 13. `def` for pandoc definitions: Used to formulate theorems, problems & propositions in a scientific publicaiton.
+
 
 This is all for now. They could obviously be improved and you are welcome to do so! If you do, I would love to hear about it!
 
