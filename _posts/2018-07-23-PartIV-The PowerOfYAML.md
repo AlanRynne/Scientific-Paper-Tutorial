@@ -3,7 +3,7 @@ title: 'Part IV: The Power of YAML'
 subtitle: 'Configuring file output'
 author: 'Alan Rynne'
 date: '23/07/2018'
-layout: page
+layout: post
 gh-repo: alanrynne/scientific-paper-tutorial
 gh-badge: [star, fork, follow]
 ---

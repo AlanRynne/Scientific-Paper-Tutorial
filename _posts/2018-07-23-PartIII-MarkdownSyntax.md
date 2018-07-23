@@ -3,7 +3,7 @@ title: 'Part III: Markdown Syntax'
 subtitle: 'A beguinners guide'
 author: 'Alan Rynne'
 date: '23/07/2018'
-layout: page
+layout: post
 gh-repo: alanrynne/scientific-paper-tutorial
 gh-badge: [star, fork, follow]
 ---
@@ -291,14 +291,6 @@ Difference between width-settings, nocaption option, etc... [@Fig:multiFigure] i
 </div>
 ```
 
-<div id="fig:multiFigure">
-![](https://dummyimage.com/150x150/f1f1f1/ababab.png){#fig:figa width=28%}
-![](https://dummyimage.com/300x150/f9f3f9/ababab.png){#fig:figb width=59%}
-![](https://dummyimage.com/50x150/f1f6f0/ababab.png){#fig:figc width=9%}
-
-Difference between width-settings, nocaption option, etc... [@Fig:multiFigure] is a full figure reference, but you can also reference just one of the images, like [@Fig:figa;[@Fig:figb;[@Fig:figc].
-</div>
-
-And it will look like this on your paper (please forgive the mismatched heights on the pictures...it's terrible...I know...)
+This does't render nicely on html, but should look like this on your paper (please forgive the mismatched heights on the pictures...it's terrible...I know...)
 
 ![multi-figure image](../img/multi-figure-image.png)
