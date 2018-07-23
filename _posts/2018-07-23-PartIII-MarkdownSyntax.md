@@ -328,8 +328,6 @@ Difference between width-settings, nocaption option, etc... [@Fig:multiFigure] i
 
 ![multi-image](../img/multi-figure-image.png)
 
-> Note that references don't get rendered in html, this is because I did not put this page through pandoc before pulishing it. Just know that it is possible to do so.
-
 
 This will be all for the Markdown syntax, and it is pretty much everything you will need. If you want to know more about Markdown, you can:
 
