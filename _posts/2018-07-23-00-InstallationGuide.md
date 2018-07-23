@@ -8,8 +8,6 @@ gh-repo: alanrynne/scientific-paper-tutorial
 gh-badge: [star, fork, follow]
 ---
 
-# Installation Guide
-
 ## Package managers
 
 A package manager will manage the installation of all other necessary programs and libraries. This will be done through the **command/powershell** (Windows) or the **terminal** (Mac/Linux).

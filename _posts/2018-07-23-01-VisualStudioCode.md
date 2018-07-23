@@ -8,8 +8,6 @@ gh-repo: alanrynne/scientific-paper-tutorial
 gh-badge: [star, fork, follow]
 ---
 
-# Setting up the text editor
-
 By now, you should have all the necesary packages installed in your computer. The next step is to set up our environment for writting the paper.
 
 You could use any text editor to write your research paper, but in our case we are going to use Visual Studio Code.

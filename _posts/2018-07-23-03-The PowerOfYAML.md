@@ -8,8 +8,6 @@ gh-repo: alanrynne/scientific-paper-tutorial
 gh-badge: [star, fork, follow]
 ---
 
-# The power of YAML
-
 So we've been learning about ***only some*** the posibilities that Markdown+Pandoc offers to write our research paper. But that is just only one part of the story. Many more questions should be arising at this point:
 
 1. My paper should have an abstract, where do I put it?
