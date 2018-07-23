@@ -114,4 +114,4 @@ After a couple of secconds, a PDF file named `00 - Test.pdf` should appear on th
 
 ## What next?
 
-You can head to the following section: [Part III - Markdown Syntax](./2018-07-23-PartIII-MarkdownSyntax)
+You can head to the following section: [Part III - Markdown Syntax](2018-07-PartIII-MarkdownSyntax)
