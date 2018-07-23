@@ -110,8 +110,3 @@ You will see a temp folder called `text2pdf.-#some-number` (see image below) whi
 After a couple of secconds, a PDF file named `00 - Test.pdf` should appear on the `Paper` folder. It should look something like this:
 
 ![First Paper Published](../img/testPaperScr.png)
-
-
-## What next?
-
-You can head to the following section: [Part III - Markdown Syntax](../2018-07-23-PartIII-MarkdownSyntax)
