@@ -1,7 +1,7 @@
 ---
 title: 'A Title'
 author: 'An Author'
-date: 'The Future'
+date: 'July 2018'
 ---
 
 CONGRATULATIONS! YOU JUST PUBLISHED YOUR FIRST PAPER!
