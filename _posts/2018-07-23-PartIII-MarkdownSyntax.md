@@ -1,3 +1,13 @@
+---
+title: 'Part III: Markdown syntax'
+subtitle: 'Everything you need to start writting'
+author: 'Alan Rynne'
+date: '23/07/2018'
+layout: post
+gh-repo: alanrynne/scientific-paper-tutorial
+gh-badge: [star, fork, follow]
+---
+
 So, now that you have your machine printing a formated PDF out of a
 simple text file, you might be wondering:
 
