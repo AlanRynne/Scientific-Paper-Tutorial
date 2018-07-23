@@ -5,7 +5,7 @@ title: About me
 
 My name is Alan Rynne and I'm the author of this course.
 
-When I'm not making courses a Building engineer, computational designer & programmer.
+I'm also a Building engineer, computational designer & computer programmer based in Spain.
 
 #### Want to know more?
 
