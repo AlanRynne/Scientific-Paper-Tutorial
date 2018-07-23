@@ -1,8 +1,11 @@
 ---
-title: 'Paper Authoring Course'
-subtitle: 'The Power of YAML'
+title: 'The Power of YAML'
+subtitle: 'Configuring file output'
 author: 'Alan Rynne'
 date: 'July 2018'
+layout: page
+gh-repo: alanrynne/scientific-paper-tutorial
+gh-badge: [star, fork, follow]
 ---
 
 # The power of YAML

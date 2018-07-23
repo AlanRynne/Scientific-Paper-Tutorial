@@ -1,8 +1,11 @@
 ---
-title: 'Paper Authoring Course'
-subtitle: 'Markdown Syntax'
+title: 'Markdown Syntax'
+subtitle: 'A beguinners guide'
 author: 'Alan Rynne'
 date: 'July 2018'
+layout: page
+gh-repo: alanrynne/scientific-paper-tutorial
+gh-badge: [star, fork, follow]
 ---
 
 # Markdown Syntax

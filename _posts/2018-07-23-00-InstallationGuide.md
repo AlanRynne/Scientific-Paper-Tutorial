@@ -1,6 +1,6 @@
 ---
-title: 'Paper Authoring Course'
-subtitle: 'Installation Guide'
+title: 'Installation Guide'
+subtitle: 'Everything you''l need'
 author: 'Alan Rynne'
 date: 'July 2018'
 layout: post

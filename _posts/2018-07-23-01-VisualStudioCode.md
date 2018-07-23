@@ -1,8 +1,11 @@
 ---
-title: 'Paper Authoring Course'
-subtitle: 'Visual Studio Code'
+title: 'Visual Studio Code'
+subtitle: 'Download, install & setup'
 author: 'Alan Rynne'
 date: 'July 2018'
+layout: page
+gh-repo: alanrynne/scientific-paper-tutorial
+gh-badge: [star, fork, follow]
 ---
 
 # Setting up the text editor
