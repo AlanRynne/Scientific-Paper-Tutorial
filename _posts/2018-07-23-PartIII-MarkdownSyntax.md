@@ -326,15 +326,12 @@ Difference between width-settings, nocaption option, etc... [@Fig:multiFigure] i
 </div>
 ```
 
-::: {#fig:multiFigure .subfigures}
-![a](https://dummyimage.com/150x150/f9f3f9/f1f1f1.png "fig:"){#fig:figa
-width="30%"}
-![b](https://dummyimage.com/300x150/f9f3f9/f1f1f1.png "fig:"){#fig:figb
-width="60%"}
-![c](https://dummyimage.com/50x150/f9f3f9/f1f1f1.png "fig:"){#fig:figc
-width="10%"}
+<div id="fig:multiFigure">
+![](https://dummyimage.com/150x150/f9f3f9/f1f1f1.png){#fig:figa width=30%}
+![](https://dummyimage.com/300x150/f9f3f9/f1f1f1.png){#fig:figb width=60%}
+![](https://dummyimage.com/50x150/f9f3f9/f1f1f1.png){#fig:figc width=10%}
 
-Figure 1: Difference between width-settings, nocaption option, etc...
-Fig. 1 is a full figure reference, but you can also reference just one
-of the images, like Figs. 1 (a), 1 (b), 1 (c)..
-:::
+Difference between width-settings, nocaption option, etc... [@Fig:multiFigure] is a full figure reference, but you can also reference just one of the images, like [@Fig:figa;@Fig:figb;@Fig:figc].
+</div>
+
+> Note that references don't get rendered in html, this is because I did not put this page through pandoc before pulishing it. Just know that it is possible to do so.
