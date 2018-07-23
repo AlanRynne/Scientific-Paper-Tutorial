@@ -183,8 +183,8 @@ Then you can add the footnote text using the same notation in a **new line**, fo
 [^REFERENCE]: This text will appear as a numbered footnote in your pdf (and in your Markdown preview ***if*** you installed the Markdown Preview Enhanced extension)
 ```
 
-Notice that `REFERENCE` must be a **unique name**
-It is good practice to give it a *meaningful* name, don't try to number them: Pandoc will take care of the numbering for you.
+
+> Notice that `REFERENCE` must be a **unique name** It is good practice to give it a *meaningful* name, don't try to number them: Pandoc will take care of the numbering for you.
 
 * The footnote text must have a unique name, but you can reference that name as many times as needed in your document, AND
 
