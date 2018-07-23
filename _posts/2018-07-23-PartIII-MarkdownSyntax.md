@@ -255,7 +255,7 @@ $$ f(x) = a^2_i + b^3_j - c $$
 
 will be rendered like this:
 
-> $$ f(x) = a^2_i + b^3_j - c $$
+![Equation](../img/equation.png)
 
 And:
 
@@ -265,7 +265,7 @@ This is a text with... $f(x) = 4$ ...a formula in it.
 
 will be rendered as:
 
-> This is a text with... $f(x) = 4$ ...a formula in it.
+![Text with formula](../img/text-with-latex-char.png)
 
 I won't go into any more detail but you will find a cheatsheet for $\LaTeX$ in the Symbols.PDF  file found in the 'images' folder.
 
