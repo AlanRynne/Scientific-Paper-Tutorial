@@ -8,7 +8,7 @@ gh-repo: alanrynne/scientific-paper-tutorial
 gh-badge: [star, fork, follow]
 ---
 
-So, now that you have your machine printing a formated PDF out of a
+Now that you have your machine printing a formated PDF out of a
 simple text file, you might be wondering:
 
 1.  ***WHAT*** can I do with this 'Markdown syntax' you talk about so

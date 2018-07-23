@@ -8,7 +8,7 @@ gh-repo: alanrynne/scientific-paper-tutorial
 gh-badge: [star, fork, follow]
 ---
 
-So far, we have only covered how to export to `pdf` format with the default template used by Pandoc: the **Article Class**. In this chapter we will:
+We have only covered how to export to `pdf` format with the default template used by Pandoc: the **Article Class**. In this chapter we will:
 
     * Explore some of it's posibilities and problems of the Article Class
     * Find out how to change your Latex Template
