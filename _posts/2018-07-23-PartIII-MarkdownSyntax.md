@@ -326,12 +326,12 @@ Difference between width-settings, nocaption option, etc... [@Fig:multiFigure] i
 </div>
 ```
 
-<div id="fig:multiFigure">
-![](https://dummyimage.com/150x150/f9f3f9/f1f1f1.png){#fig:figa width=30%}
-![](https://dummyimage.com/300x150/f9f3f9/f1f1f1.png){#fig:figb width=60%}
-![](https://dummyimage.com/50x150/f9f3f9/f1f1f1.png){#fig:figc width=10%}
-
-Difference between width-settings, nocaption option, etc... [@Fig:multiFigure] is a full figure reference, but you can also reference just one of the images, like [@Fig:figa;@Fig:figb;@Fig:figc].
-</div>
+![multi-image](../img/multi-figure-image.png)
 
 > Note that references don't get rendered in html, this is because I did not put this page through pandoc before pulishing it. Just know that it is possible to do so.
+
+
+This will be all for the Markdown syntax, and it is pretty much everything you will need. If you want to know more about Markdown, you can:
+
+1. visit [John Gruber's website](https://daringfireball.net/projects/markdown/syntax) (Markdown's creator)
+2. or, you can continue to the next post to unlock *hidden powers* inside your YAML Frontmatter!!
