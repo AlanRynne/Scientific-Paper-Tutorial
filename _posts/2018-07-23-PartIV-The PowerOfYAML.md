@@ -34,7 +34,7 @@ bibliography: Your_Bib_File.bib
 
 Let's have a look at a more complex YAML:
 
-```yaml
+```yaml{linenos=true}
 ---
 # LaTeX package includes
 # Use this to include packages required usually in custom templates.
