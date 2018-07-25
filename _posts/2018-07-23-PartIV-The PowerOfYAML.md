@@ -31,6 +31,7 @@ bibliography: Your_Bib_File.bib
 ---
 ```
 
+
 Let's have a look at a more complex YAML:
 
 ```yaml
@@ -47,6 +48,9 @@ header-includes:
 link-citations: true
 link-references: true
 
+# Latex Document class options
+documentclass: paper
+classoption: oneside
 # Select color for each type of link
 colorlinks: true
 linkcolor: NavyBlue
