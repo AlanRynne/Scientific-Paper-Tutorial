@@ -6,6 +6,7 @@ date: '23/07/2018'
 layout: post
 gh-repo: alanrynne/scientific-paper-tutorial
 gh-badge: [star, fork, follow]
+lineno: table
 ---
 
 We've been learning about ***only some*** the posibilities that Markdown+Pandoc offers to write our research paper. But that is just only one part of the story. Many more questions should be arising at this point:
