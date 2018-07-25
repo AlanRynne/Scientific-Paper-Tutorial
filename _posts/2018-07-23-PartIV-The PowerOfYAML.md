@@ -22,7 +22,7 @@ We've been learning about ***only some*** the posibilities that Markdown+Pandoc 
 
 If you have been following up to this point, you should have a YAML Frontmatter in your `.md` file that looks like this:
 
-```YAML
+```yaml
 ---
 title: 'A Title'
 author: 'An Author'
@@ -33,7 +33,7 @@ bibliography: Your_Bib_File.bib
 
 Let's have a look at a more complex YAML:
 
-```YAML
+```yaml
 ---
 # LaTeX package includes
 # Use this to include packages required usually in custom templates.
