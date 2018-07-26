@@ -35,7 +35,7 @@ bibliography: Your_Bib_File.bib
 
 Let's have a look at a more complex YAML:
 
-```yaml{linenos=true}
+```yaml
 ---
 # LaTeX package includes
 # Use this to include packages required usually in custom templates.
@@ -50,8 +50,8 @@ link-citations: true
 link-references: true
 
 # Latex Document class options
-documentclass: paper
-classoption: oneside
+documentclass: paper # Use also book, report, paper...
+classoption: oneside # Other options are twoside onecolumn & twocolumns, among others
 # Select color for each type of link
 colorlinks: true
 linkcolor: NavyBlue

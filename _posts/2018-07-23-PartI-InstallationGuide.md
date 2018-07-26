@@ -74,7 +74,6 @@ Copy and paste the following commands on your windows command shell:
 
 * `choco install pandoc`
 * `choco install pandoc-crossref`
-* `choco install pandoc-citeproc`
 * `choco install miktex`
 
 ### Mac
@@ -83,7 +82,6 @@ Copy and paste the following commands on your linux terminal:
 
 * `brew install pandoc`
 * `brew install pandoc-crossref`
-* `brew install pandoc-citeproc`
 * To install miktex on a mac you need to run
   * `brew tap miktex/miktex` and then
   * `brew install miktex`
